@@ -162,12 +162,35 @@ Please use this information to respond to guest inquiries with clarity, friendli
 
 ]
 
-demo_guest_messages = [
-    "Hi! Can we check in early on Friday?",
-    "Is there a place to park our car?",
-    "Do you allow pets in the apartment?",
-    "How do we get the keys when we arrive?"
+urban_escape_questions = [
+    "Is early check-in possible? We arrive around noon.",
+    "Do you provide shampoo and towels?",
+    "How do we access the apartment when we arrive?",
+    "Is there Wi-Fi? How fast is it?",
+    "Can I bring a friend over who’s not staying overnight?",
+    "Is there a grocery store nearby?",
+    "How far is CN Tower from the apartment?",
+    "Is smoking allowed on the balcony?",
+    "Can I stream Netflix on the TV?",
+    "Is the parking space big enough for an SUV?"
 ]
+
+willow_lake_questions = [
+    "Is there good Wi-Fi? We might need to work remotely.",
+    "Can we bring our golden retriever with us?",
+    "Are firewood and matches provided for the fire pit?",
+    "Can we use the kayak and canoe freely?",
+    "What’s the check-out process?",
+    "Is there any place nearby to get groceries or supplies?",
+    "Do we need to clean the BBQ after use?",
+    "Are pets allowed on the furniture if we bring a blanket?",
+    "Are there any hiking trails nearby?",
+    "Is it okay if we arrive a bit late, like around 10 PM?"
+]
+
+
+demo_guest_messages = urban_escape_questions + willow_lake_questions
+
 
 # ========== Streamlit UI ==========
 st.set_page_config(page_title="Airbnb AI Auto-Responder", layout="centered")
