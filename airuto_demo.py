@@ -3,8 +3,8 @@ import google.generativeai as genai
 
 # ========== Configuration ==========
 # Replace with your Gemini API key
-genai.configure(api_key="YOUR_GEMINI_API_KEY")
-model = genai.GenerativeModel("gemini-pro")
+genai.configure(api_key="AIzaSyBiGHuu5ZehfRVqV7mjiXTqDC-J50Wb48Q")
+model = genai.GenerativeModel("gemini-2.0-flash")
 
 # Demo properties and messages
 demo_properties = [
